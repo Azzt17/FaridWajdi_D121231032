@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lucida Console', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5d5d5d;
+    flex-direction: column; 
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.seven-segment {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+}
+
+.vektor {
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    fill: #6f6f6f;
+}
+
+.active {
+    fill: #ff0000 !important;
+}
+
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b61e1e;
+}
+
+#binaryInput {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#decimalOutput {
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
